@@ -46,7 +46,7 @@ const loginFormHandler = async (event) => {
       return;
     }
 
-    document.location.replace('/dashboard');
+    document.location.replace('/disk');
   } catch (err) {
     console.log(err);
     showError(loginFormEl, "A login error has ocurred.")
